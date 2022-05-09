@@ -41,34 +41,38 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Juicy</a>
+                <a class="navbar-brand" href="index.php">Juicy</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a class="tag_menu" href="index.html">HOME</a></li>                     
-                    <li><a class="tag_menu" href="about.html">ABOUT US</a></li>					                    
-                    <li><a class="tag_menu active_tab" href="blog.html">BLOG</a></li>
-                    <li><a class="tag_menu" href="details.html">DETAILS</a></li>					
-					<li><a class="tag_menu" href="shop.html">SHOP</a></li>
-                    <li><a class="tag_menu" href="shop-details.html">SHOP DETAIL</a></li>						
-					<li><a class="tag_menu" href="team.html">TEAM</a></li>					
-					<li><a class="tag_menu" href="gallery.html">GALLERY</a></li>					
-					<li><a class="tag_menu" href="pages.html">PAGES</a></li>					
-					<li><a class="tag_menu" href="contact.html">CONTACT</a></li>
+                    <?php
+                    echo '<li><a class="tag_menu active_tab" href="index.php">HOME</a></li> ';                  
+                    echo '<li><a class="tag_menu" href="about.php">ABOUT US</a></li>	';		                    
+                    echo '<li><a class="tag_menu" href="blog.php">BLOG</a></li>';
+                    echo '<li><a class="tag_menu" href="details.php">DETAILS</a></li>';			
+					echo '<li><a class="tag_menu" href="shop.php">SHOP</a></li>';
+                    echo '<li><a class="tag_menu" href="shop-details.php">SHOP DETAIL</a></li>';				
+					echo '<li><a class="tag_menu" href="team.php">TEAM</a></li>';			
+					echo '<li><a class="tag_menu" href="gallery.php">GALLERY</a></li>';		
+					echo '<li><a class="tag_menu" href="pages.php">PAGES</a></li>';			
+					echo '<li><a class="tag_menu" href="contact.php">CONTACT</a></li>';
+					?>				
 					<li class="dropdown">
-					  <a class="tag_menu tag_menu_last" href="blog.html" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
+					  <a class="tag_menu tag_menu_last" href="blog.php" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
 					  <ul class="dropdown-menu drop_1" role="menu">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">ABOUT US</a></li>
-						<li><a href="blog.html">BLOG</a></li>
-						<li><a href="details.html">DETAILS</a></li>
-						<li><a href="shop.html">SHOP</a></li>
-						<li><a href="shop-details.html">Shop-detail</a></li>
-						<li><a href="team.html">TEAM</a></li>												
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
+					  	<?php
+						echo '<li><a href="index.php">Home</a></li>';
+						echo '<li><a href="about.php">ABOUT US</a></li>';
+						echo '<li><a href="blog.php">BLOG</a></li>';
+						echo '<li><a href="details.php">DETAILS</a></li>';
+						echo '<li><a href="shop.php">SHOP</a></li>';
+						echo '<li><a href="shop-details.php">Shop-detail</a></li>';
+						echo '<li><a href="team.php">TEAM</a></li>		';										
+						echo '<li><a href="gallery.php">Gallery</a></li>';
+						echo '<li><a href="contact.php">CONTACT</a></li>';
+						?>
 					  </ul>
                     </li>
 					
@@ -119,11 +123,11 @@
     <div class="blog_2_left_main clearfix">
 	 <div class="blog_2_left_main_inner_1 clearfix">
 	  <div class="offer_home_inner text-center">
-	   <a href="details.html"><img class="" src="img/43.jpg" width="100%" height="400px"></a>
+	   <a href="details.php"><img class="" src="img/43.jpg" width="100%" height="400px"></a>
 	  </div>
 	 </div>
 	 <div class="blog_2_left_main_inner_2 clearfix">
-	  <h2><a href="details.html">Vestibulum lacinia</a></h2>
+	  <h2><a href="details.php">Vestibulum lacinia</a></h2>
 	  <p>Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos C. Curabitursodales ligula in libero. Sed dignissim lacinia nunc consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
 	 </div>
 	 <div class="blog_2_left_main_inner_3 clearfix">
@@ -142,11 +146,11 @@
 	<div class="blog_2_left_main clearfix">
 	 <div class="blog_2_left_main_inner_1 clearfix">
 	  <div class="offer_home_inner text-center">
-	   <a href="details.html"><img class="" src="img/44.jpg" width="100%" height="400px"></a>
+	   <a href="details.php"><img class="" src="img/44.jpg" width="100%" height="400px"></a>
 	  </div>
 	 </div>
 	 <div class="blog_2_left_main_inner_2 clearfix">
-	  <h2><a href="details.html">Integer nec odionec</a></h2>
+	  <h2><a href="details.php">Integer nec odionec</a></h2>
 	   <p>Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos C. Curabitursodales ligula in libero. Sed dignissim lacinia nunc consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
 	 </div>
 	 <div class="blog_2_left_main_inner_3 clearfix">
@@ -165,11 +169,11 @@
 	<div class="blog_2_left_main clearfix">
 	 <div class="blog_2_left_main_inner_1 clearfix">
 	  <div class="offer_home_inner text-center">
-	   <a href="details.html"><img class="" src="img/45.jpg" width="100%" height="400px"></a>
+	   <a href="details.php"><img class="" src="img/45.jpg" width="100%" height="400px"></a>
 	  </div>
 	 </div>
 	 <div class="blog_2_left_main_inner_2 clearfix">
-	  <h2><a href="details.html">Sed dignissim lacinia</a></h2>
+	  <h2><a href="details.php">Sed dignissim lacinia</a></h2>
 	  <p>Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos C. Curabitursodales ligula in libero adipiscing elit. Integer nec odionec odio.</p>
 	 </div>
 	 <div class="blog_2_left_main_inner_3 clearfix">
@@ -207,7 +211,7 @@
           </div>
 	 </div>
 	 <div class="blog_2_left_main_inner_2 clearfix">
-	  <h2><a href="details.html">Sed dignissim lacinia</a></h2>
+	  <h2><a href="details.php">Sed dignissim lacinia</a></h2>
 	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.Vestibulum lacinia arcu eget nulla.
  Class aptent taciti sociosqu</p>
 	 </div>
@@ -226,8 +230,8 @@
 	 <div class="blog_2_left_main_inner_4 clearfix">
 	  <ul>
 	   <li class="active_3"><a href="#">1</a></li>
-	    <li><a href="details.html">2</a></li>
-		 <li class="last_tab"><a href="details.html"><i class="fa fa-chevron-right"></i></a></li>
+	    <li><a href="details.php">2</a></li>
+		 <li class="last_tab"><a href="details.php"><i class="fa fa-chevron-right"></i></a></li>
 	  </ul>
 	 </div>
 	</div>
@@ -265,7 +269,7 @@
 					<figure class="effect-jazz">
 						<img src="img/49.jpg" alt="img25"/>
 						<figcaption>
-							<a href="details.html">View more</a>						</figcaption>			
+							<a href="details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -285,7 +289,7 @@
 					<figure class="effect-jazz">
 						<img src="img/50.jpg" alt="img25"/>
 						<figcaption>
-							<a href="details.html">View more</a>						</figcaption>			
+							<a href="details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -305,7 +309,7 @@
 					<figure class="effect-jazz">
 						<img src="img/51.jpg" alt="img25"/>
 						<figcaption>
-							<a href="details.html">View more</a>						</figcaption>			
+							<a href="details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -325,7 +329,7 @@
 					<figure class="effect-jazz">
 						<img src="img/52.jpg" alt="img25"/>
 						<figcaption>
-							<a href="details.html">View more</a>						</figcaption>			
+							<a href="details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -345,7 +349,7 @@
 					<figure class="effect-jazz">
 						<img src="img/53.jpg" alt="img25"/>
 						<figcaption>
-							<a href="details.html">View more</a>						</figcaption>			
+							<a href="details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -365,7 +369,7 @@
 					<figure class="effect-jazz">
 						<img src="img/54.jpg" alt="img25"/>
 						<figcaption>
-							<a href="details.html">View more</a>						</figcaption>			
+							<a href="details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -385,7 +389,7 @@
 					<figure class="effect-jazz">
 						<img src="img/55.jpg" alt="img25"/>
 						<figcaption>
-							<a href="details.html">View more</a>						</figcaption>			
+							<a href="details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -405,7 +409,7 @@
 					<figure class="effect-jazz">
 						<img src="img/56.jpg" alt="img25"/>
 						<figcaption>
-							<a href="details.html">View more</a>						</figcaption>			
+							<a href="details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>

@@ -29,7 +29,6 @@
   
   
 <body>
-
 <section id="header" class="clearfix">
 	<nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -47,7 +46,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <?php
+                   <?php
                     echo '<li><a class="tag_menu active_tab" href="index.php">HOME</a></li> ';                  
                     echo '<li><a class="tag_menu" href="about.php">ABOUT US</a></li>	';		                    
                     echo '<li><a class="tag_menu" href="blog.php">BLOG</a></li>';
@@ -105,112 +104,221 @@
     </nav>
 </section>
 
-<section id="details" class="clearfix">
-    <div class="container">
+<section id="shop" class="clearfix">
+ <div class="shop_main">
+  <div class="container">
   <div class="row">
-   <div class="details clearfix">
-   <h2>Details</h2>
+   <div class="shop clearfix">
+   <h2>Shop With Conubia</h2>
    </div>
   </div>
  </div>
+ </div>
 </section>
 
-<section id="blog_2" class="clearfix">
+<section id="shop_2" class="clearfix">
     <div class="container">
   <div class="row">
-   <div class="blog_2 clearfix">
-   <div class="col-sm-9 blog_2_left clearfix">
-    <div class="blog_2_left_main clearfix">
-	 <div class="blog_2_left_main_inner_1 clearfix">
-	  <div class="offer_home_inner text-center">
-	   <a href="#"><img class="" src="img/43.jpg" width="100%" height="400px"></a>
-	  </div>
-	 </div>
-	 <div class="blog_2_left_main_inner_2 clearfix">
-	  <h2><a href="#">Vestibulum lacinia</a></h2>
-	  <p>Consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu .Class aptent taciti sociosqu ad litora torquent per conubia nostra, C..</p>
-	  <p>Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos C. Curabitursodales ligula in libero. Sed dignissim lacinia nunc. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu .Class aptent taciti sociosqu.</p>
-	  <p class="angle_tab"><i class="fa fa-angle-double-right"></i>Mauris massa. Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
-	  <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos C. Curabitursodales ligula in libero. Sed dignissim lacinia nunc.quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.Mauris massa. Vestibulum lacinia.</p>
-	  <p>Curabitursodales ligula in libero. Sed dignissim lacinia nunc. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu .Class aptent taciti sociosqu.Integer nec odionec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</p>
-	 </div>
-	 <div class="blog_2_left_main_inner_3 clearfix">
-	  <div class="col-sm-6 nice_left clearfix">
-	   <div class="nice_left_inner">
-	    <p><a href="#">March 29, 2017 </a> By <a href="#"> admin </a> / <a href="#">	Porta, Lacinia</a></p>
+   <div class="shop_2 clearfix">
+   <div class="col-sm-9 shop_2_left clearfix">
+    <div class="shop_2_left_top clearfix">
+	 <div class="shop_2_left_top_inner_1 clearfix">
+	  <div class="col-sm-8 shop_2_left_top_inner_1_left clearfix">
+	   <div class="shower_left clearfix">
+	    <h4>Showing 1–9 of 15 resultss</h4>
 	   </div>
 	  </div>
-	  <div class="col-sm-6 nice_right clearfix">
-	   <div class="nice_right_inner">
-	    <p><a href="#"><i class="fa fa-comment-o"></i> 2 Comment</a><span class="like_1"><a href="#"><i class="fa fa-heart-o"></i> 3 Like</a></span></p>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="blog_2_right_top_inner_3 blog_2_right_top_inner_3_details clearfix">
-	   <div class="col-sm-1 blog_2_right_top_inner_3_left clearfix">
-	    <div class="logic_1 clearfix">
-		 <div class="grid clearfix">
-					<figure class="effect-jazz">
-						<img src="img/52.jpg" alt="img25">
-						<figcaption>
-							<a href="#">View more</a>						</figcaption>			
-		  </figure>
-					
-	  </div>
-		</div>
-	   </div>
-	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
-		 <div class="logic_2 clearfix">
-		  <h2><a href="#">Integer nec Odionec</a></h2>
-		  <h5><a href="#"><i class="fa fa-chevron-left"></i>previous</a></h5>
-		 </div>
-		</div>
-	  </div>
-	 <div class="commenting clearfix">
-	  <h1>Comments: 1</h1>
-	 </div>
-	 <div class="commenting_2 clearfix">
-	  <div class="col-sm-1 commenting_2_left clearfix">
-	   <div class="commenting_2_left_inner">
-	    <p><img src="img/58.jpg" class="img-circle"></p>
-	   </div>
-	  </div>
-	  <div class="col-sm-11 commenting_2_right clearfix">
-	   <div class="commenting_right_inner">
-	    <p>Conubia Nostra  /	<span class="monthly_1">1 months ago</span><span class="monthly_2 pull-right"><a href="#"><i class="fa fa-share"></i>reply</a></span></p>
-		<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum sagittis ipsum.</h5>
+	  <div class="col-sm-4 shop_2_left_top_inner_1_right clearfix">
+	   <div class="shower_right clearfix">
+	    <div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">Duis sagittis</h3>
+					<span class="pull-right clickable panel-collapsed"><i class="glyphicon glyphicon-chevron-down"></i></span>
+				</div>
+				<div class="shower_right_inner clearfix">
+				 <div class="panel-body" style="display: none;">
+				 <ul>
+				  <li><a href="shop-details.php">Short by Vestibulum</a></li>
+				  <li><a href="shop-details.php">Short by Lacinia </a></li>
+				  <li><a href="shop-details.php">Short by Consectetur  </a></li>
+				  <li><a href="shop-details.php">Short by Praesent</a></li>
+				  <li><a href="shop-details.php">Short by Inceptos</a></li>
+				  <li><a href="shop-details.php">Short by Sociosqu</a></li>
+				  <li><a href="shop-details.php">Short by Dignissim</a></li>
+				 </ul>
+				 </div>
+				</div>
+			</div>
 	   </div>
 	  </div>
 	 </div>
-	 <div class="commenting clearfix">
-	  <h1>Post a Comment</h1>
-	 </div>
-	 <div class="details_2_inner_8 clearfix">
-	   <textarea placeholder="Comment..." class="form-control form_1"></textarea>
-	   <input class="form-control form_2" type="text" placeholder="Name*">
-	   <input class="form-control form_2" type="text" placeholder="Email*">
-	   <input class="form-control form_2" type="text" placeholder="Website*">
-	   <h5><a href="#">Post Comment</a></h5>
+	 <div class="shop_2_left_top_inner_2 clearfix">
+	  <div class="center_1_middle clearfix">
+	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
+	  <div class="center_1_middle_left_1_inner">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
+                      <div class="img"><img src="img/8.jpg" alt="img"></div>
+                      <div class="info">
+                        <h3>add to cart</h3>
+                      </div></a></div>
 	  </div>
+	  <div class="center_1_middle_left_2_inner">
+	  <h3><a href="shop-details.php">Mauris massa</a></h3>
+	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
+	  <h6>€ 15.00</h6>
+	 </div>
+	 </div>
+	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
+	  <div class="center_1_middle_left_1_inner">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
+                      <div class="img"><img src="img/9.jpg" alt="img"></div>
+                      <div class="info">
+                        <h3>add to cart</h3>
+                      </div></a></div>
+	  </div>
+	  <div class="center_1_middle_left_2_inner">
+	  <h3><a href="shop-details.php">Torquent per</a></h3>
+	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
+	  <h6>€ 14.00</h6>
+	 </div>
+	 </div>
+	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
+	  <div class="center_1_middle_left_1_inner">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
+                      <div class="img"><img src="img/10.jpg" alt="img"></div>
+                      <div class="info">
+                        <h3>add to cart</h3>
+                      </div></a></div>
+	  </div>
+	  <div class="center_1_middle_left_2_inner">
+	  <h3><a href="shop-details.php">Vestibulum</a></h3>
+	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
+	  <h6>€ 28.00</h6>
+	 </div>
+	 </div>
+	</div>
+	  <div class="center_1_middle clearfix">
+	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
+	  <div class="center_1_middle_left_1_inner">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
+                      <div class="img"><img src="img/4.jpg" alt="img"></div>
+                      <div class="info">
+                        <h3>add to cart</h3>
+                      </div></a></div>
+	  </div>
+	  <div class="center_1_middle_left_2_inner">
+	  <h3><a href="shop-details.php">Conubia Nostra</a></h3>
+	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
+	  <h6>€ 18.00</h6>
+	 </div>
+	 </div>
+	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
+	  <div class="center_1_middle_left_1_inner">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
+                      <div class="img"><img src="img/5.jpg" alt="img"></div>
+                      <div class="info">
+                        <h3>add to cart</h3>
+                      </div></a></div>
+	  </div>
+	  <div class="center_1_middle_left_2_inner">
+	  <h3><a href="shop-details.php">Sed Dignissim</a></h3>
+	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
+	  <h6>€ 12.00</h6>
+	 </div>
+	 </div>
+	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
+	  <div class="center_1_middle_left_1_inner">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
+                      <div class="img"><img src="img/6.jpg" alt="img"></div>
+                      <div class="info">
+                        <h3>add to cart</h3>
+                      </div></a></div>
+	  </div>
+	  <div class="center_1_middle_left_2_inner">
+	  <h3><a href="shop-details.php">Elementum</a></h3>
+	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
+	  <h6>€ 25.00</h6>
+	 </div>
+	 </div>
+	 
+	</div>
+	  <div class="center_1_middle clearfix">
+	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
+	  <div class="center_1_middle_left_1_inner">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
+                      <div class="img"><img src="img/11.jpg" alt="img"></div>
+                      <div class="info">
+                        <h3>add to cart</h3>
+                      </div></a></div>
+	  </div>
+	  <div class="center_1_middle_left_2_inner">
+	  <h3><a href="shop-details.php">Dapibus Diam</a></h3>
+	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
+	  <h6>€ 32.00</h6>
+	 </div>
+	 </div>
+     <div class="col-sm-4 center_1_middle_left_1 clearfix">
+	  <div class="center_1_middle_left_1_inner">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
+                      <div class="img"><img src="img/7.jpg" alt="img"></div>
+                      <div class="info">
+                        <h3>add to cart</h3>
+                      </div></a></div>
+	  </div>
+	  <div class="center_1_middle_left_2_inner">
+	  <h3><a href="shop-details.php">Praesent libero</a></h3>
+	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
+	  <h6>€ 32.00</h6>
+	 </div>
+	 </div>
+	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
+	  <div class="center_1_middle_left_1_inner">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
+                      <div class="img"><img src="img/6.jpg" alt="img"></div>
+                      <div class="info">
+                        <h3>add to cart</h3>
+                      </div></a></div>
+	  </div>
+	  <div class="center_1_middle_left_2_inner">
+	  <h3><a href="shop-details.php">Imperdiet</a></h3>
+	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
+	  <h6>€ 10.00</h6>
+	 </div>
+	 </div>
+	</div>
+	 </div>
+	 <div class="shop_2_left_top_inner_3 clearfix">
+	  <div class="blog_2_left_main_inner_4 clearfix">
+	  	<?php
+	  echo '<ul>
+	   <li class="deactive_3"><a href="shop.php">1</a></li>
+	    <li class="deactive_3"><a href="shop1.php">2</a></li>
+	    <li class="deactive_3"><a href="shop2.php">3</a></li>
+	    <li class="deactive_3"><a href="shop3.php">4</a></li>
+	    <li class="active_3"><a href="shop4.php">5</a></li>
+	    <li class="deactive_3"><a href="shop5.php">6</a></li>
+	    <li class="deactive_3"><a href="shop6.php">7</a></li>
+		 <li class="last_tab"><a href="shop-details.php"><i class="fa fa-chevron-right"></i></a></li>
+	  </ul>';?>
+	 </div>
+	 </div>
 	</div>
    </div>
-   <div class="col-sm-3 blog_2_right clearfix">
-    <div  class="blog_2_right_top clearfix">
-	 <div class="courses_inner clearfix">
-	  <div class="input-group col-sm-12 courses_inner_1 clearfix">
-                                <input type="text" class="  search-query form-control form-control_course" placeholder="Search Courses...">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-primary" type="button">
-                                        <span class="location"><i class="fa fa-search"></i></span>
-                                    </button>
-                                </span>
-                            </div>
+   <div class="col-sm-3 shop_2_right clearfix">
+    <div class="shop_2_right_top clearfix">
+	 <div class="shop_2_right_top_inner_1 clearfix">
+	  <h3>Filter by price</h3>
 	 </div>
-	 <div class="blog_2_right_top_inner_2 clearfix">
-	  <h2>About us</h2>
-	  <p>Lorem ipsum dolor sit amet cursus<br> Curabitursodales ligula in libero,<br> aptent taciti sociosqu ad litora<br> lacinia arcu eget.</p>
+	 <div class="shop_2_right_top_inner_2 clearfix">
+	  <ul>
+	   <li><p>Price: €8 — €32</p></li>
+	   <li><a href="shop-details.php">filter</a></li>
+	  </ul>
+	 </div>
+	 <div class="shop_2_right_top_inner_3 clearfix">
+	  <div class="blog_2_right_top_inner_2 clearfix">
 	  <h2>Consectetur</h2>
-	 <h5><a href="#">Mauris (6)</a></h5>
+	  <h5><a href="#">Mauris (6)</a></h5>
 	  <h5><a href="#">Libero (5)</a></h5>
 	  <h5><a href="#">Lacinia (4)</a></h5>
 	  <h5><a href="#">Odionec odio (3)</a></h5>
@@ -220,14 +328,14 @@
 		  <h5><a href="#">Taciti  (1)</a></h5>
 		  <h2>Class Aptent</h2>
 	 </div>
-     <div class="blog_2_right_top_inner_3 clearfix">
+	  <div class="blog_2_right_top_inner_3 clearfix">
 	   <div class="col-sm-4 blog_2_right_top_inner_3_left clearfix">
 	    <div class="logic_1 clearfix">
 		 <div class="grid clearfix">
 					<figure class="effect-jazz">
-						<img src="img/49.jpg" alt="img25"/>
+						<img src="img/49.jpg" alt="img25">
 						<figcaption>
-							<a href="#">View more</a>						</figcaption>			
+							<a href="shop-details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -235,28 +343,8 @@
 	   </div>
 	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
 		 <div class="logic_2 clearfix">
-		   <h2><a href="#">Semper Porta</a></h2>
-		  <h5><a href="#">March 13, 2018</a></h5>
-		 </div>
-		</div>
-	  </div>
-	 <div class="blog_2_right_top_inner_3 clearfix">
-	   <div class="col-sm-4 blog_2_right_top_inner_3_left clearfix">
-	    <div class="logic_1 clearfix">
-		 <div class="grid clearfix">
-					<figure class="effect-jazz">
-						<img src="img/50.jpg" alt="img25"/>
-						<figcaption>
-							<a href="#">View more</a>						</figcaption>			
-		  </figure>
-					
-	  </div>
-		</div>
-	   </div>
-	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
-		 <div class="logic_2 clearfix">
-		  <h2><a href="#">Semper Porta</a></h2>
-		  <h5><a href="#">April 17, 2018</a></h5>
+		  <h2><a href="shop-details.php">Semper Porta</a></h2>
+		  <h5><a href="shop-details.php">April 20, 2018</a></h5>
 		 </div>
 		</div>
 	  </div>
@@ -265,9 +353,9 @@
 	    <div class="logic_1 clearfix">
 		 <div class="grid clearfix">
 					<figure class="effect-jazz">
-						<img src="img/51.jpg" alt="img25"/>
+						<img src="img/50.jpg" alt="img25">
 						<figcaption>
-							<a href="#">View more</a>						</figcaption>			
+							<a href="shop-details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -275,8 +363,8 @@
 	   </div>
 	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
 		 <div class="logic_2 clearfix">
-		  <h2><a href="#">Dolor Sit Amet</a></h2>
-		  <h5><a href="#">April 17, 2018</a></h5>
+		  <h2><a href="shop-details.php">Fusce nec tellus</a></h2>
+		  <h5><a href="shop-details.php">April 17, 2018</a></h5>
 		 </div>
 		</div>
 	  </div>
@@ -285,9 +373,9 @@
 	    <div class="logic_1 clearfix">
 		 <div class="grid clearfix">
 					<figure class="effect-jazz">
-						<img src="img/52.jpg" alt="img25"/>
+						<img src="img/51.jpg" alt="img25">
 						<figcaption>
-							<a href="#">View more</a>						</figcaption>			
+							<a href="shop-details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -295,94 +383,14 @@
 	   </div>
 	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
 		 <div class="logic_2 clearfix">
-		  <h2><a href="#">Sed Cursus</a></h2>
-		  <h5><a href="#">April 17, 2018</a></h5>
-		 </div>
-		</div>
-	  </div>
-	  <div class="blog_2_right_top_inner_3 clearfix">
-	   <div class="col-sm-4 blog_2_right_top_inner_3_left clearfix">
-	    <div class="logic_1 clearfix">
-		 <div class="grid clearfix">
-					<figure class="effect-jazz">
-						<img src="img/53.jpg" alt="img25"/>
-						<figcaption>
-							<a href="#">View more</a>						</figcaption>			
-		  </figure>
-					
-	  </div>
-		</div>
-	   </div>
-	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
-		 <div class="logic_2 clearfix">
-		  <h2><a href="#">Nulla Quis Sem</a></h2>
-		  <h5><a href="#">April 17, 2018</a></h5>
-		 </div>
-		</div>
-	  </div>
-	  <div class="blog_2_right_top_inner_3 clearfix">
-	   <div class="col-sm-4 blog_2_right_top_inner_3_left clearfix">
-	    <div class="logic_1 clearfix">
-		 <div class="grid clearfix">
-					<figure class="effect-jazz">
-						<img src="img/54.jpg" alt="img25"/>
-						<figcaption>
-							<a href="#">View more</a>						</figcaption>			
-		  </figure>
-					
-	  </div>
-		</div>
-	   </div>
-	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
-		 <div class="logic_2 clearfix">
-		  <h2><a href="#">Praesent libero</a></h2>
-		  <h5><a href="#">April 17, 2018</a></h5>
-		 </div>
-		</div>
-	  </div>
-	  <div class="blog_2_right_top_inner_3 clearfix">
-	   <div class="col-sm-4 blog_2_right_top_inner_3_left clearfix">
-	    <div class="logic_1 clearfix">
-		 <div class="grid clearfix">
-					<figure class="effect-jazz">
-						<img src="img/55.jpg" alt="img25"/>
-						<figcaption>
-							<a href="#">View more</a>						</figcaption>			
-		  </figure>
-					
-	  </div>
-		</div>
-	   </div>
-	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
-		 <div class="logic_2 clearfix">
-		  <h2><a href="#">Lacinia Arcu</a></h2>
-		  <h5><a href="#">April 17, 2018</a></h5>
-		 </div>
-		</div>
-	  </div>
-	  <div class="blog_2_right_top_inner_3 clearfix">
-	   <div class="col-sm-4 blog_2_right_top_inner_3_left clearfix">
-	    <div class="logic_1 clearfix">
-		 <div class="grid clearfix">
-					<figure class="effect-jazz">
-						<img src="img/56.jpg" alt="img25"/>
-						<figcaption>
-							<a href="#">View more</a>						</figcaption>			
-		  </figure>
-					
-	  </div>
-		</div>
-	   </div>
-	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
-		 <div class="logic_2 clearfix">
-		  <h2><a href="#">Praesent mauris</a></h2>
-		  <h5><a href="#">April 17, 2018</a></h5>
+		  <h2><a href="shop-details.php">Jump For Juice</a></h2>
+		  <h5><a href="shop-details.php">April 17, 2018</a></h5>
 		 </div>
 		</div>
 	  </div>
 	  <div class="blog_2_right_top_inner_2 clearfix">
 	  <h2>Duis sagittis ipsum</h2>
-	  <h6><a href="#">Nulla, Dolor ,Odio, Massa ,Ipsum</a></h6>
+	  <h6><a href="shop-details.php">Nulla, Dolor ,Odio, Massa ,Ipsum</a></h6>
 	  <h2>Share</h2>
 	  <ul>
 	   <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
@@ -390,6 +398,7 @@
 	   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
 	   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 	  </ul>
+	 </div>
 	 </div>
 	</div>
    </div>
@@ -539,6 +548,21 @@
   </div>
  </div>
 </section>
+
+<script type="text/javascript">
+	$(document).on('click', '.panel-heading span.clickable', function(e){
+    var $this = $(this);
+	if(!$this.hasClass('panel-collapsed')) {
+		$this.parents('.panel').find('.panel-body').slideUp();
+		$this.addClass('panel-collapsed');
+		$this.find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+	} else {
+		$this.parents('.panel').find('.panel-body').slideDown();
+		$this.removeClass('panel-collapsed');
+		$this.find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+	}
+})
+	</script>
 
 </body>
       

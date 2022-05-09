@@ -41,34 +41,38 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Juicy</a>
+                <a class="navbar-brand" href="index.php">Juicy</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                   <li><a class="tag_menu" href="index.html">HOME</a></li>                     
-                    <li><a class="tag_menu" href="about.html">ABOUT US</a></li>					                    
-                    <li><a class="tag_menu" href="blog.html">BLOG</a></li>
-                    <li><a class="tag_menu" href="details.html">DETAILS</a></li>					
-					<li><a class="tag_menu active_tab" href="shop.html">SHOP</a></li>
-                    <li><a class="tag_menu" href="shop-details.html">SHOP DETAIL</a></li>						
-					<li><a class="tag_menu" href="team.html">TEAM</a></li>					
-					<li><a class="tag_menu" href="gallery.html">GALLERY</a></li>					
-					<li><a class="tag_menu" href="pages.html">PAGES</a></li>					
-					<li><a class="tag_menu" href="contact.html">CONTACT</a></li>
+                   <?php
+                    echo '<li><a class="tag_menu active_tab" href="index.php">HOME</a></li> ';                  
+                    echo '<li><a class="tag_menu" href="about.php">ABOUT US</a></li>	';		                    
+                    echo '<li><a class="tag_menu" href="blog.php">BLOG</a></li>';
+                    echo '<li><a class="tag_menu" href="details.php">DETAILS</a></li>';			
+					echo '<li><a class="tag_menu" href="shop.php">SHOP</a></li>';
+                    echo '<li><a class="tag_menu" href="shop-details.php">SHOP DETAIL</a></li>';				
+					echo '<li><a class="tag_menu" href="team.php">TEAM</a></li>';			
+					echo '<li><a class="tag_menu" href="gallery.php">GALLERY</a></li>';		
+					echo '<li><a class="tag_menu" href="pages.php">PAGES</a></li>';			
+					echo '<li><a class="tag_menu" href="contact.php">CONTACT</a></li>';
+					?>				
 					<li class="dropdown">
-					  <a class="tag_menu tag_menu_last" href="blog.html" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
+					  <a class="tag_menu tag_menu_last" href="blog.php" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
 					  <ul class="dropdown-menu drop_1" role="menu">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">ABOUT US</a></li>
-						<li><a href="blog.html">BLOG</a></li>
-						<li><a href="details.html">DETAILS</a></li>
-						<li><a href="shop.html">SHOP</a></li>
-						<li><a href="shop-details.html">Shop-detail</a></li>
-						<li><a href="team.html">TEAM</a></li>												
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
+					  	<?php
+						echo '<li><a href="index.php">Home</a></li>';
+						echo '<li><a href="about.php">ABOUT US</a></li>';
+						echo '<li><a href="blog.php">BLOG</a></li>';
+						echo '<li><a href="details.php">DETAILS</a></li>';
+						echo '<li><a href="shop.php">SHOP</a></li>';
+						echo '<li><a href="shop-details.php">Shop-detail</a></li>';
+						echo '<li><a href="team.php">TEAM</a></li>		';										
+						echo '<li><a href="gallery.php">Gallery</a></li>';
+						echo '<li><a href="contact.php">CONTACT</a></li>';
+						?>
 					  </ul>
                     </li>
 					
@@ -135,13 +139,13 @@
 				<div class="shower_right_inner clearfix">
 				 <div class="panel-body" style="display: none;">
 				 <ul>
-				  <li><a href="shop-details.html">Short by Vestibulum</a></li>
-				  <li><a href="shop-details.html">Short by Lacinia </a></li>
-				  <li><a href="shop-details.html">Short by Consectetur  </a></li>
-				  <li><a href="shop-details.html">Short by Praesent</a></li>
-				  <li><a href="shop-details.html">Short by Inceptos</a></li>
-				  <li><a href="shop-details.html">Short by Sociosqu</a></li>
-				  <li><a href="shop-details.html">Short by Dignissim</a></li>
+				  <li><a href="shop-details.php">Short by Vestibulum</a></li>
+				  <li><a href="shop-details.php">Short by Lacinia </a></li>
+				  <li><a href="shop-details.php">Short by Consectetur  </a></li>
+				  <li><a href="shop-details.php">Short by Praesent</a></li>
+				  <li><a href="shop-details.php">Short by Inceptos</a></li>
+				  <li><a href="shop-details.php">Short by Sociosqu</a></li>
+				  <li><a href="shop-details.php">Short by Dignissim</a></li>
 				 </ul>
 				 </div>
 				</div>
@@ -153,42 +157,42 @@
 	  <div class="center_1_middle clearfix">
 	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
 	  <div class="center_1_middle_left_1_inner">
-	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.html">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
                       <div class="img"><img src="img/8.jpg" alt="img"></div>
                       <div class="info">
                         <h3>add to cart</h3>
                       </div></a></div>
 	  </div>
 	  <div class="center_1_middle_left_2_inner">
-	  <h3><a href="shop-details.html">Mauris massa</a></h3>
+	  <h3><a href="shop-details.php">Mauris massa</a></h3>
 	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
 	  <h6>€ 15.00</h6>
 	 </div>
 	 </div>
 	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
 	  <div class="center_1_middle_left_1_inner">
-	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.html">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
                       <div class="img"><img src="img/9.jpg" alt="img"></div>
                       <div class="info">
                         <h3>add to cart</h3>
                       </div></a></div>
 	  </div>
 	  <div class="center_1_middle_left_2_inner">
-	  <h3><a href="shop-details.html">Torquent per</a></h3>
+	  <h3><a href="shop-details.php">Torquent per</a></h3>
 	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
 	  <h6>€ 14.00</h6>
 	 </div>
 	 </div>
 	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
 	  <div class="center_1_middle_left_1_inner">
-	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.html">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
                       <div class="img"><img src="img/10.jpg" alt="img"></div>
                       <div class="info">
                         <h3>add to cart</h3>
                       </div></a></div>
 	  </div>
 	  <div class="center_1_middle_left_2_inner">
-	  <h3><a href="shop-details.html">Vestibulum</a></h3>
+	  <h3><a href="shop-details.php">Vestibulum</a></h3>
 	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
 	  <h6>€ 28.00</h6>
 	 </div>
@@ -197,42 +201,42 @@
 	  <div class="center_1_middle clearfix">
 	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
 	  <div class="center_1_middle_left_1_inner">
-	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.html">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
                       <div class="img"><img src="img/4.jpg" alt="img"></div>
                       <div class="info">
                         <h3>add to cart</h3>
                       </div></a></div>
 	  </div>
 	  <div class="center_1_middle_left_2_inner">
-	  <h3><a href="shop-details.html">Conubia Nostra</a></h3>
+	  <h3><a href="shop-details.php">Conubia Nostra</a></h3>
 	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
 	  <h6>€ 18.00</h6>
 	 </div>
 	 </div>
 	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
 	  <div class="center_1_middle_left_1_inner">
-	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.html">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
                       <div class="img"><img src="img/5.jpg" alt="img"></div>
                       <div class="info">
                         <h3>add to cart</h3>
                       </div></a></div>
 	  </div>
 	  <div class="center_1_middle_left_2_inner">
-	  <h3><a href="shop-details.html">Sed Dignissim</a></h3>
+	  <h3><a href="shop-details.php">Sed Dignissim</a></h3>
 	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
 	  <h6>€ 12.00</h6>
 	 </div>
 	 </div>
 	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
 	  <div class="center_1_middle_left_1_inner">
-	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.html">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
                       <div class="img"><img src="img/6.jpg" alt="img"></div>
                       <div class="info">
                         <h3>add to cart</h3>
                       </div></a></div>
 	  </div>
 	  <div class="center_1_middle_left_2_inner">
-	  <h3><a href="shop-details.html">Elementum</a></h3>
+	  <h3><a href="shop-details.php">Elementum</a></h3>
 	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
 	  <h6>€ 25.00</h6>
 	 </div>
@@ -242,42 +246,42 @@
 	  <div class="center_1_middle clearfix">
 	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
 	  <div class="center_1_middle_left_1_inner">
-	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.html">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
                       <div class="img"><img src="img/11.jpg" alt="img"></div>
                       <div class="info">
                         <h3>add to cart</h3>
                       </div></a></div>
 	  </div>
 	  <div class="center_1_middle_left_2_inner">
-	  <h3><a href="shop-details.html">Dapibus Diam</a></h3>
+	  <h3><a href="shop-details.php">Dapibus Diam</a></h3>
 	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
 	  <h6>€ 32.00</h6>
 	 </div>
 	 </div>
      <div class="col-sm-4 center_1_middle_left_1 clearfix">
 	  <div class="center_1_middle_left_1_inner">
-	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.html">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
                       <div class="img"><img src="img/7.jpg" alt="img"></div>
                       <div class="info">
                         <h3>add to cart</h3>
                       </div></a></div>
 	  </div>
 	  <div class="center_1_middle_left_2_inner">
-	  <h3><a href="shop-details.html">Praesent libero</a></h3>
+	  <h3><a href="shop-details.php">Praesent libero</a></h3>
 	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
 	  <h6>€ 32.00</h6>
 	 </div>
 	 </div>
 	 <div class="col-sm-4 center_1_middle_left_1 clearfix">
 	  <div class="center_1_middle_left_1_inner">
-	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.html">
+	   <div class="ih-item square effect6 from_top_and_bottom"><a href="shop-details.php">
                       <div class="img"><img src="img/6.jpg" alt="img"></div>
                       <div class="info">
                         <h3>add to cart</h3>
                       </div></a></div>
 	  </div>
 	  <div class="center_1_middle_left_2_inner">
-	  <h3><a href="shop-details.html">Imperdiet</a></h3>
+	  <h3><a href="shop-details.php">Imperdiet</a></h3>
 	  <h5><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h5>
 	  <h6>€ 10.00</h6>
 	 </div>
@@ -286,11 +290,17 @@
 	 </div>
 	 <div class="shop_2_left_top_inner_3 clearfix">
 	  <div class="blog_2_left_main_inner_4 clearfix">
-	  <ul>
+	  <?php
+	  echo '<ul>
 	   <li class="active_3"><a href="#">1</a></li>
-	    <li><a href="shop-details.html">2</a></li>
-		 <li class="last_tab"><a href="shop-details.html"><i class="fa fa-chevron-right"></i></a></li>
-	  </ul>
+	    <li><a href="shop1.php">2</a></li>
+	    <li class="deactive_3"><a href="shop2.php">3</a></li>
+	    <li class="deactive_3"><a href="shop3.php">4</a></li>
+	    <li class="deactive_3"><a href="shop4.php">5</a></li>
+	    <li class="deactive_3"><a href="shop5.php">6</a></li>
+	    <li class="deactive_3"><a href="shop6.php">7</a></li>
+		 <li class="last_tab"><a href="shop-details.php"><i class="fa fa-chevron-right"></i></a></li>
+	  </ul>'; ?>
 	 </div>
 	 </div>
 	</div>
@@ -303,7 +313,7 @@
 	 <div class="shop_2_right_top_inner_2 clearfix">
 	  <ul>
 	   <li><p>Price: €8 — €32</p></li>
-	   <li><a href="shop-details.html">filter</a></li>
+	   <li><a href="shop-details.php">filter</a></li>
 	  </ul>
 	 </div>
 	 <div class="shop_2_right_top_inner_3 clearfix">
@@ -326,7 +336,7 @@
 					<figure class="effect-jazz">
 						<img src="img/49.jpg" alt="img25">
 						<figcaption>
-							<a href="shop-details.html">View more</a>						</figcaption>			
+							<a href="shop-details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -334,8 +344,8 @@
 	   </div>
 	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
 		 <div class="logic_2 clearfix">
-		  <h2><a href="shop-details.html">Semper Porta</a></h2>
-		  <h5><a href="shop-details.html">April 20, 2018</a></h5>
+		  <h2><a href="shop-details.php">Semper Porta</a></h2>
+		  <h5><a href="shop-details.php">April 20, 2018</a></h5>
 		 </div>
 		</div>
 	  </div>
@@ -346,7 +356,7 @@
 					<figure class="effect-jazz">
 						<img src="img/50.jpg" alt="img25">
 						<figcaption>
-							<a href="shop-details.html">View more</a>						</figcaption>			
+							<a href="shop-details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -354,8 +364,8 @@
 	   </div>
 	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
 		 <div class="logic_2 clearfix">
-		  <h2><a href="shop-details.html">Fusce nec tellus</a></h2>
-		  <h5><a href="shop-details.html">April 17, 2018</a></h5>
+		  <h2><a href="shop-details.php">Fusce nec tellus</a></h2>
+		  <h5><a href="shop-details.php">April 17, 2018</a></h5>
 		 </div>
 		</div>
 	  </div>
@@ -366,7 +376,7 @@
 					<figure class="effect-jazz">
 						<img src="img/51.jpg" alt="img25">
 						<figcaption>
-							<a href="shop-details.html">View more</a>						</figcaption>			
+							<a href="shop-details.php">View more</a>						</figcaption>			
 		  </figure>
 					
 	  </div>
@@ -374,14 +384,14 @@
 	   </div>
 	    <div class="col-sm-8 blog_2_right_top_inner_3_right clearfix">
 		 <div class="logic_2 clearfix">
-		  <h2><a href="shop-details.html">Jump For Juice</a></h2>
-		  <h5><a href="shop-details.html">April 17, 2018</a></h5>
+		  <h2><a href="shop-details.php">Jump For Juice</a></h2>
+		  <h5><a href="shop-details.php">April 17, 2018</a></h5>
 		 </div>
 		</div>
 	  </div>
 	  <div class="blog_2_right_top_inner_2 clearfix">
 	  <h2>Duis sagittis ipsum</h2>
-	  <h6><a href="shop-details.html">Nulla, Dolor ,Odio, Massa ,Ipsum</a></h6>
+	  <h6><a href="shop-details.php">Nulla, Dolor ,Odio, Massa ,Ipsum</a></h6>
 	  <h2>Share</h2>
 	  <ul>
 	   <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>

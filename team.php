@@ -41,34 +41,38 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Juicy</a>
+                <a class="navbar-brand" href="index.php">Juicy</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a class="tag_menu" href="index.html">HOME</a></li>                     
-                    <li><a class="tag_menu" href="about.html">ABOUT US</a></li>					                    
-                    <li><a class="tag_menu" href="blog.html">BLOG</a></li>
-                    <li><a class="tag_menu" href="details.html">DETAILS</a></li>					
-					<li><a class="tag_menu" href="shop.html">SHOP</a></li>
-                    <li><a class="tag_menu" href="shop-details.html">SHOP DETAIL</a></li>						
-					<li><a class="tag_menu active_tab" href="team.html">TEAM</a></li>					
-					<li><a class="tag_menu" href="gallery.html">GALLERY</a></li>					
-					<li><a class="tag_menu" href="pages.html">PAGES</a></li>					
-					<li><a class="tag_menu" href="contact.html">CONTACT</a></li>
+                    <?php
+                    echo '<li><a class="tag_menu active_tab" href="index.php">HOME</a></li> ';                  
+                    echo '<li><a class="tag_menu" href="about.php">ABOUT US</a></li>	';		                    
+                    echo '<li><a class="tag_menu" href="blog.php">BLOG</a></li>';
+                    echo '<li><a class="tag_menu" href="details.php">DETAILS</a></li>';			
+					echo '<li><a class="tag_menu" href="shop.php">SHOP</a></li>';
+                    echo '<li><a class="tag_menu" href="shop-details.php">SHOP DETAIL</a></li>';				
+					echo '<li><a class="tag_menu" href="team.php">TEAM</a></li>';			
+					echo '<li><a class="tag_menu" href="gallery.php">GALLERY</a></li>';		
+					echo '<li><a class="tag_menu" href="pages.php">PAGES</a></li>';			
+					echo '<li><a class="tag_menu" href="contact.php">CONTACT</a></li>';
+					?>				
 					<li class="dropdown">
-					  <a class="tag_menu tag_menu_last" href="blog.html" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
+					  <a class="tag_menu tag_menu_last" href="blog.php" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
 					  <ul class="dropdown-menu drop_1" role="menu">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">ABOUT US</a></li>
-						<li><a href="blog.html">BLOG</a></li>
-						<li><a href="details.html">DETAILS</a></li>
-						<li><a href="shop.html">SHOP</a></li>
-						<li><a href="shop-details.html">Shop-detail</a></li>
-						<li><a href="team.html">TEAM</a></li>												
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
+					  	<?php
+						echo '<li><a href="index.php">Home</a></li>';
+						echo '<li><a href="about.php">ABOUT US</a></li>';
+						echo '<li><a href="blog.php">BLOG</a></li>';
+						echo '<li><a href="details.php">DETAILS</a></li>';
+						echo '<li><a href="shop.php">SHOP</a></li>';
+						echo '<li><a href="shop-details.php">Shop-detail</a></li>';
+						echo '<li><a href="team.php">TEAM</a></li>		';										
+						echo '<li><a href="gallery.php">Gallery</a></li>';
+						echo '<li><a href="contact.php">CONTACT</a></li>';
+						?>
 					  </ul>
                     </li>
 					
