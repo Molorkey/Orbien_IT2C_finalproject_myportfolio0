@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Juicy</title>
+    <?php
+    echo '<title>FoodKo</title>';
+    ?>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
@@ -41,34 +43,40 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Juicy</a>
+                <?php
+                echo '<a class="navbar-brand" href="index.php">FoodKo</a>';
+                ?>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a class="tag_menu active_tab" href="index.html">HOME</a></li>                     
-                    <li><a class="tag_menu" href="about.html">ABOUT US</a></li>					                    
-                    <li><a class="tag_menu" href="blog.html">BLOG</a></li>
-                    <li><a class="tag_menu" href="details.html">DETAILS</a></li>					
-					<li><a class="tag_menu" href="shop.html">SHOP</a></li>
-                    <li><a class="tag_menu" href="shop-details.html">SHOP DETAIL</a></li>						
-					<li><a class="tag_menu" href="team.html">TEAM</a></li>					
-					<li><a class="tag_menu" href="gallery.html">GALLERY</a></li>					
-					<li><a class="tag_menu" href="pages.html">PAGES</a></li>					
-					<li><a class="tag_menu" href="contact.html">CONTACT</a></li>					
+                	<?php
+                    echo '<li><a class="tag_menu active_tab" href="index.php">HOME</a></li> ';                  
+                    echo '<li><a class="tag_menu" href="about.php">ABOUT US</a></li>	';		                    
+                    echo '<li><a class="tag_menu" href="blog.php">BLOG</a></li>';
+                    echo '<li><a class="tag_menu" href="details.php">DETAILS</a></li>';			
+					echo '<li><a class="tag_menu" href="shop.php">SHOP</a></li>';
+                    echo '<li><a class="tag_menu" href="shop-details.php">SHOP DETAIL</a></li>';				
+					echo '<li><a class="tag_menu" href="team.php">TEAM</a></li>';			
+					echo '<li><a class="tag_menu" href="gallery.php">GALLERY</a></li>';		
+					echo '<li><a class="tag_menu" href="pages.php">PAGES</a></li>';			
+					echo '<li><a class="tag_menu" href="contact.php">CONTACT</a></li>';
+					?>				
 					<li class="dropdown">
-					  <a class="tag_menu tag_menu_last" href="blog.html" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
+					  <a class="tag_menu tag_menu_last" href="blog.php" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
 					  <ul class="dropdown-menu drop_1" role="menu">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">ABOUT US</a></li>
-						<li><a href="blog.html">BLOG</a></li>
-						<li><a href="details.html">DETAILS</a></li>
-						<li><a href="shop.html">SHOP</a></li>
-						<li><a href="shop-details.html">Shop-detail</a></li>
-						<li><a href="team.html">TEAM</a></li>												
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
+					  	<?php
+						echo '<li><a href="index.php">Home</a></li>';
+						echo '<li><a href="about.php">ABOUT US</a></li>';
+						echo '<li><a href="blog.php">BLOG</a></li>';
+						echo '<li><a href="details.php">DETAILS</a></li>';
+						echo '<li><a href="shop.php">SHOP</a></li>';
+						echo '<li><a href="shop-details.php">Shop-detail</a></li>';
+						echo '<li><a href="team.php">TEAM</a></li>		';										
+						echo '<li><a href="gallery.php">Gallery</a></li>';
+						echo '<li><a href="contact.php">CONTACT</a></li>';
+						?>
 					  </ul>
                     </li>
 					
@@ -114,44 +122,35 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="img/1.jpg" alt="First slide">
-                        <div class="carousel-caption">
-                            <h3>
-                                First slide</h3>
-                            <p>
-                                Fusce nec tellus sed augue semper porta. Mauris massa.</p>
-                        </div>
+
+                        <?php echo '<img src="img/1.png" alt="First slide">';?>
+
+                        
                     </div>
                     <div class="item">
-                        <img src="img/2.jpg" alt="Second slide">
-                        <div class="carousel-caption">
-                            <h3>
-                                Second slide</h3>
-                            <p>
-                                Nulla quis sem at nibh elementum imperdiet. Duis sagittis.</p>
-                        </div>
+
+                        <?php echo'<img src="img/2.png" alt="Second slide">'; ?>
+
+                        
                     </div>
                     <div class="item">
-                        <img src="img/3.jpg" alt="Third slide">
-                        <div class="carousel-caption">
-                            <h3>
-                                Third slide</h3>
-                            <p>
-                                Class aptent taciti sociosqu ad litora torquent per conubia.</p>
-                        </div>
-                    </div>
-                </div>
+
+                        <?php echo '<img src="img/3.png" alt="Third slide">'; ?>
+
+                        
                
             </div>
             <div class="main-text">
                 <div class="col-sm-12 top_bottom clearfix">
-                    <h1>
-                        IPSUM<br><span class="drunk_1">A SAGITTIS</span><span class="drunk_2">DAPIBUS</span></h1>
-                    <h3>
-                        Ad litora torquent per conubia nostra, per inceptos C.
-                    </h3>
+                    <?php echo'<h1>
+                        Online<br><span class="drunk_1">Food</span><span class="drunk_2">Store</span></h1>'; ?>
+
+
+                    <?php echo '<h3>
+                        Shop with us now!
+                    </h3>';?>
                     <div class="">
-                        <a class="btn btn-clear btn-sm btn-min-block" href="details.html">shop now</a></div>
+                        <a class="btn btn-clear btn-sm btn-min-block" href="details.php">shop now</a></div>
                 </div>
             </div>
         </div>
@@ -166,8 +165,11 @@
    <div class="center_1 clearfix">
     <div class="center_1_top clearfix">
 	 <h4><i class="fa fa-heart"></i></h4>
-	 <h2>Imperdiet & Libero</h2>
-	 <h5>Sed cursus ante dapibus diam</h5>
+	 <?php
+	 echo '<h2>Favorites</h2>';
+
+	 echo '<h5>Pick anything you want</h5>';
+	 ?>
 	</div>
 	<div class="center_1_middle clearfix">
 	 <div class="col-sm-3 center_1_middle_left_1 clearfix">
