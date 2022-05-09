@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Juicy</title>
+    <title>FoodKo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
@@ -41,7 +41,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Juicy</a>
+                <?php
+                echo '<a class="navbar-brand" href="index.php">FoodKo</a>';
+                ?>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -109,7 +111,10 @@
     <div class="container">
   <div class="row">
    <div class="blog clearfix">
-   <h2>Blog</h2>
+
+   	<?php
+   echo '<h2>FoodKo</h2>';?>
+
    </div>
   </div>
  </div>

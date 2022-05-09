@@ -342,7 +342,8 @@
 	 </div>
 	</div>'; ?>
 	<div class="col-sm-4 footer_middle clearfix">
-	 <div class="footer_middle_inner">
+		<?php
+	 echo '<div class="footer_middle_inner">
 	  <h2>Opening Hours</h2>
 	  <p><a href="#">Monday…………………………………..9: 00 – 19: 00</a></p>
 	   <p><a href="#">Tuesday…………………………………..9: 00 – 19: 00</a></p>
@@ -352,7 +353,7 @@
 		   <p><a href="#">Saturday………………………………….9: 00 – 19: 00</a></p>
 		    <p><a href="#">Sunday…………………………………………….CLOSED</a></p>
 	 </div>
-	</div>
+	</div>'; ?>
 	
 	  
 	  

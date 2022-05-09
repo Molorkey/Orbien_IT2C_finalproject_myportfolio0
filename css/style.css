@@ -1084,12 +1084,12 @@ figure.effect-jazz:hover figcaption::after {
 
 /*********************about****************/
 #about{
-  background-image:url(../img/32.jpg);
+  background-image:url(../img/42.png);
   background-repeat:no-repeat;
   background-size:cover;
   }
 .about_main{
-  background:#00000082;
+  
   min-height:400px;
   padding-top:200px;
   padding-bottom:200px;
@@ -1107,7 +1107,7 @@ figure.effect-jazz:hover figcaption::after {
 
 /*********************about_2****************/
 #about_2{
-background-image:url(../img/34.jpg);
+background-image:url(../img/32.jpg);
   background-repeat:no-repeat;
   background-size:cover;
   padding-top:70px;
@@ -1252,6 +1252,7 @@ background-image:url(../img/34.jpg);
   min-height:400px;
   padding-top:200px;
   padding-bottom:200px;
+
  }
 .blog h2{
   font-size:120px;
